@@ -83,7 +83,7 @@
     const focusDay = todayDay || document.getElementById(today < '2026-10-05' ? 'day-2026-10-05' : 'day-2027-02-28');
     document.getElementById('daily-date').textContent = (todayDay ? 'TODAY · ' : today < '2026-10-05' ? 'START HERE · ' : 'RACE DAY · ') + focusDay.querySelector('.day-date').textContent;
     document.getElementById('daily-title').textContent = focusDay.querySelector('h3').textContent;
-    document.getElementById('daily-meta').textContent = focusDay.querySelector('.session-meta').textContent;
+    document.getElementById('daily-meta').textContent = Array.from(focusDay.querySelector('.session-meta').children, el => el.textContent).join(' · ');
     document.getElementById('daily-link').href = '#' + focusDay.id;
   }
   updateCountdown();
