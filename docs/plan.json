@@ -1,7 +1,5 @@
 {
   "schemaVersion": 1,
-  "start": "2026-10-05",
-  "race": "2027-02-28",
   "weeks": [
     {
       "number": 1,
@@ -1917,7 +1915,7 @@
           "kind": "Rest",
           "duration": "0 min",
           "steps": [
-            "Confirm your actual division date and wave time, course instructions, ID, ticket and travel. This plan targets Sunday, Feb 28; move the taper if your ticket is for another day."
+            "Confirm your actual division date and wave time, course instructions, ID, ticket and travel. Use your ticket for the exact race day and wave time."
           ],
           "date": "2027-02-25",
           "id": "2027-02-25"
@@ -1945,7 +1943,7 @@
           "id": "2027-02-27"
         },
         {
-          "title": "Phoenix race day",
+          "title": "HYROX race day",
           "kind": "Race",
           "duration": "Your wave time",
           "steps": [

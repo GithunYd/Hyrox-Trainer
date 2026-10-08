@@ -1,4 +1,4 @@
-name: Publish Phoenix
+name: Publish HYROX Trainer
 on:
   push:
     branches: [main]
@@ -8,7 +8,7 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: phoenix-pages
+  group: hyrox-trainer-pages
   cancel-in-progress: false
 jobs:
   publish:
@@ -24,7 +24,7 @@ jobs:
       - name: Validate generated site
         run: |
           node scripts/build.mjs
-          node --test tests/plan.test.mjs
+          node --test tests/*.test.mjs
           node --check docs/app.js
           node --check docs/sw.js
       - uses: actions/configure-pages@v5

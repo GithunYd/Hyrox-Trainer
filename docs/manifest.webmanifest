@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Phoenix · Your first HYROX",
-  "short_name": "Phoenix",
-  "description": "21-week beginner HYROX plan with private device-local progress.",
+  "name": "HYROX Trainer",
+  "short_name": "HYROX Trainer",
+  "description": "Start today. Train for your race. Check off every win.",
   "lang": "en",
   "start_url": "./",
   "scope": "./",

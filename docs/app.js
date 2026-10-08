@@ -1,163 +1,97 @@
-(() => {
-  'use strict';
-  const KEY = 'phoenix-training-v1';
-  const boxes = Array.from(document.querySelectorAll('[data-day]'));
-  const ids = new Set(boxes.map(b => b.dataset.day));
-  const status = document.getElementById('storage-status');
-  let completed = new Set();
-  let storageOK = true;
-  let deferredInstall;
-  function read(raw) {
-    if (raw === null) return new Set();
-    const value = JSON.parse(raw);
-    if (!value || value.schemaVersion !== 1 || !Array.isArray(value.completed) || value.completed.some(id => typeof id !== 'string' || !ids.has(id))) throw new Error('Invalid progress format');
-    return new Set(value.completed);
-  }
-  function snapshot() { return { schemaVersion: 1, completed: [...completed].sort() }; }
-  try {
-    completed = read(localStorage.getItem(KEY));
-    // Test storage so users see a useful message even before the first checkoff.
-    localStorage.setItem('phoenix-storage-test', '1');
-    localStorage.removeItem('phoenix-storage-test');
-    status.textContent = 'Saved on this device · Your progress is private.';
-  } catch (error) {
-    storageOK = false;
-    status.textContent = 'Saved progress is unavailable or unreadable. Checkoffs work for this visit; back them up below.';
-  }
-  function render() {
-    for (const box of boxes) {
-      box.checked = completed.has(box.dataset.day);
-      box.closest('.day').classList.toggle('completed', box.checked);
-    }
-    const count = completed.size;
-    document.getElementById('done-count').textContent = count;
-    document.getElementById('progress-pct').textContent = Math.round(count / boxes.length * 100) + '%';
-    document.getElementById('progress').value = count;
-    for (const week of document.querySelectorAll('.week')) {
-      const done = [...week.querySelectorAll('[data-day]')].filter(b => completed.has(b.dataset.day)).length;
-      week.querySelector('.week-count').textContent = `${done}/7`;
-    }
-  }
-  function save() {
-    try {
-      if (!storageOK) throw new Error('Storage unavailable');
-      localStorage.setItem(KEY, JSON.stringify(snapshot()));
-      status.textContent = 'Saved on this device · Your progress is private.';
-    } catch {
-      storageOK = false;
-      status.textContent = 'Your browser could not save this change. Checkoffs work for this visit; use Back up progress below.';
-    }
-    render();
-  }
-  for (const box of boxes) box.addEventListener('change', () => {
-    // Merge the latest saved state to avoid losing another tab’s recent changes.
-    if (storageOK) {
-      try { completed = read(localStorage.getItem(KEY)); } catch { storageOK = false; }
-    }
-    if (box.checked) completed.add(box.dataset.day); else completed.delete(box.dataset.day);
-    save();
-  });
-  window.addEventListener('storage', event => {
-    if (event.key === KEY || event.key === null) {
-      try { completed = read(localStorage.getItem(KEY)); render(); } catch { status.textContent = 'Progress changed in another tab but could not be read.'; }
-    }
-  });
-  render();
-  // Calendar dates follow this device’s timezone; counting days uses UTC date values,
-  // avoiding DST changes and avoiding interpreting midnight as the previous day.
-  function localDate() {
-    const d = new Date();
-    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-  }
-  function updateCountdown() {
-    const today = localDate();
-    const days = Math.round((Date.parse('2027-02-28T00:00:00Z') - Date.parse(today + 'T00:00:00Z')) / 86400000);
-    document.getElementById('countdown').textContent = days > 0 ? days : days === 0 ? 'TODAY' : 'FINISH';
-    document.getElementById('countdown-label').textContent = days > 0 ? (days === 1 ? 'day to go' : 'days to go') : days === 0 ? 'race day' : 'line crossed';
-    const todayDay = document.getElementById('day-' + today);
-    document.querySelectorAll('.today').forEach(el => el.classList.remove('today'));
-    if (todayDay) todayDay.classList.add('today');
-    const link = document.getElementById('today-link');
-    link.href = '#day-' + (todayDay ? today : today < '2026-10-05' ? '2026-10-05' : '2027-02-28');
-    link.firstChild.textContent = todayDay ? 'Go to today ' : today < '2026-10-05' ? 'First workout ' : 'Race day ';
-    const focusDay = todayDay || document.getElementById(today < '2026-10-05' ? 'day-2026-10-05' : 'day-2027-02-28');
-    document.getElementById('daily-date').textContent = (todayDay ? 'TODAY · ' : today < '2026-10-05' ? 'START HERE · ' : 'RACE DAY · ') + focusDay.querySelector('.day-date').textContent;
-    document.getElementById('daily-title').textContent = focusDay.querySelector('h3').textContent;
-    document.getElementById('daily-meta').textContent = Array.from(focusDay.querySelector('.session-meta').children, el => el.textContent).join(' · ');
-    document.getElementById('daily-link').href = '#' + focusDay.id;
-  }
-  updateCountdown();
-  window.setInterval(updateCountdown, 60000);
-  function openHash(scroll = false) {
-    const target = document.getElementById(location.hash.slice(1));
-    if (!target) return;
-    const week = target.matches('.week') ? target : target.closest('.week');
-    if (week) week.open = true;
-    if (scroll) target.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
-  }
-  window.addEventListener('hashchange', () => openHash(true));
-  document.getElementById('today-link').addEventListener('click', () => {
-    const target = document.getElementById(document.getElementById('today-link').hash.slice(1));
-    if (target) target.closest('.week').open = true;
-  });
-  document.getElementById('daily-link').addEventListener('click', () => {
-    document.getElementById(document.getElementById('daily-link').hash.slice(1)).closest('.week').open = true;
-  });
-  if (location.hash) openHash(); else {
-    const todayDay = document.querySelector('.today');
-    if (todayDay) {
-      document.querySelectorAll('.week').forEach(w => { w.open = w === todayDay.closest('.week'); });
-    }
-  }
-  const backupStatus = document.getElementById('backup-status');
-  document.getElementById('backup-controls').hidden = false;
-  document.getElementById('export').addEventListener('click', () => {
-    const url = URL.createObjectURL(new Blob([JSON.stringify({ ...snapshot(), exportedAt: new Date().toISOString() }, null, 2)], { type: 'application/json' }));
-    const a = document.createElement('a'); a.href = url; a.download = 'phoenix-progress-' + localDate() + '.json';
-    document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
-    backupStatus.textContent = 'Progress backup downloaded. Keep it to restore your checkoffs on another device.';
-  });
-  document.getElementById('import').addEventListener('change', async event => {
-    const file = event.target.files[0];
-    if (!file) return;
-    try {
-      if (file.size > 100000) throw new Error('Backup too large');
-      const restored = read(await file.text());
-      for (const id of restored) completed.add(id);
-      save();
-      backupStatus.textContent = `Restored backup; ${completed.size} total days checked. Existing checkoffs were kept.`;
-    } catch { backupStatus.textContent = 'This backup could not be read. Choose a Phoenix progress JSON backup.'; }
-    event.target.value = '';
-  });
-  document.getElementById('reset').addEventListener('click', () => {
-    if (!window.confirm('Clear all checkoffs on this device? Back up your progress first if you want to keep it.')) return;
-    completed.clear(); save(); backupStatus.textContent = 'Checkoffs reset.';
-  });
-  window.addEventListener('beforeinstallprompt', event => {
-    event.preventDefault(); deferredInstall = event;
-    document.getElementById('install-button').hidden = false;
-  });
-  document.getElementById('install-button').addEventListener('click', async () => {
-    if (!deferredInstall) return;
-    await deferredInstall.prompt(); await deferredInstall.userChoice; deferredInstall = null;
-    document.getElementById('install-button').hidden = true;
-  });
-  window.addEventListener('appinstalled', () => { document.getElementById('install-button').hidden = true; });
-  const offlineStatus = document.getElementById('offline-status');
-  if ('serviceWorker' in navigator && window.isSecureContext) {
-    navigator.serviceWorker.register('./sw.js', { scope: './' }).then(async registration => {
-      await navigator.serviceWorker.ready;
-      offlineStatus.textContent = 'Offline ready · Your workouts and station guide are saved for this device.';
-      registration.addEventListener('updatefound', () => {
-        const worker = registration.installing;
-        if (!worker) return;
-        worker.addEventListener('statechange', () => {
-          if (worker.state === 'installed' && navigator.serviceWorker.controller) offlineStatus.textContent = 'A new version is ready. Close all Phoenix tabs and reopen to update. Your checkoffs stay saved.';
-        });
-      });
-    }).catch(() => { offlineStatus.textContent = 'Offline setup was unavailable. The full plan still works online; reopen online to try again.'; });
-  } else offlineStatus.textContent = 'This browser does not support offline installation here. Your full plan is available online.';
-  let printState;
-  window.addEventListener('beforeprint', () => { printState=[...document.querySelectorAll('.week')].map(w=>w.open); document.querySelectorAll('.week').forEach(w=>w.open=true); });
-  window.addEventListener('afterprint', () => { document.querySelectorAll('.week').forEach((w,i)=>w.open=printState?.[i]??w.open); });
-})();
+import {buildPlan,checklist,validateState,validDate,localDate,addDays,distance} from './planner.js';
+const KEY='hyrox-trainer-v2',FIRST='hyrox-trainer-first-open';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=d=>new Date(d+'T12:00:00Z').toLocaleDateString(undefined,{month:'short',day:'numeric',timeZone:'UTC'});
+const full=d=>new Date(d+'T12:00:00Z').toLocaleDateString(undefined,{weekday:'long',month:'short',day:'numeric',timeZone:'UTC'});
+let state=null,templates,days=[],storageOK=true,firstOpen=localDate(),view='today',toastTimer;
+try{const previous=localStorage.getItem(FIRST);if(validDate(previous)&&previous<=localDate())firstOpen=previous;else localStorage.setItem(FIRST,firstOpen);}catch{storageOK=false;}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(state));storageOK=true;}catch{storageOK=false;}}
+function readLatest(){if(!storageOK)return;try{const raw=localStorage.getItem(KEY);if(raw)state=validateState(JSON.parse(raw),templates);}catch{storageOK=false;}}
+function currentDay(){return days.find(d=>d.date===localDate())||(localDate()<state.start?days[0]:days.at(-1));}
+function taskChecked(day,i){return state.completed.includes(day.date)||(state.tasks[day.date]||[]).includes(i);}
+function sessionMarkup(day,compact=false){
+  const {tasks,tips}=checklist(day),done=state.completed.includes(day.date);
+  return `<article class="workout ${done?'done':''}" data-workout="${day.date}"><div class="workout-top"><span class="tag">${esc(day.kind)}</span><span>${esc(day.duration)}</span></div><h2>${esc(day.title)}</h2>${compact?`<p class="fine">${esc(full(day.date))} · Day ${day.number}</p>`:''}<label class="finish-control"><input type="checkbox" data-complete="${day.date}" ${done?'checked':''}><span class="finish-icon" aria-hidden="true">✓</span><span>${done?'Session complete. Nice work.':day.kind==='Rest'?'Check off your recovery':day.kind==='Race'?'I crossed the finish line':'Mark session complete'}</span></label><div class="checklist">${tasks.map((task,i)=>`<label class="task"><input type="checkbox" data-task="${i}" data-date="${day.date}" ${taskChecked(day,i)?'checked':''}><span class="task-icon" aria-hidden="true">✓</span><span>${esc(task)}</span></label>`).join('')}</div>${tips.length?`<details class="workout-tips"><summary>Technique & substitutions</summary>${tips.map(t=>`<p>${esc(t)}</p>`).join('')}</details>`:''}</article>`;
+}
+function showView(next){view=next;$('today-view').hidden=view!=='today';$('plan-view').hidden=view!=='plan';for(const n of ['today','plan']){$('view-'+n).classList.toggle('active',view===n);$('view-'+n).setAttribute('aria-pressed',String(view===n));}}
+function progress(){
+  const count=state.completed.length;$('wins-count').textContent=count;
+  let date=localDate(),rhythm=0;if(!state.completed.includes(date))date=addDays(date,-1);
+  while(date>=state.start&&state.completed.includes(date)){rhythm++;date=addDays(date,-1);}
+  $('rhythm-count').textContent=rhythm;
+  const current=currentDay(),week=days.filter(d=>d.week===current.week),training=week.filter(d=>!['Rest','Recovery','Race'].includes(d.kind));
+  $('week-count').textContent=training.filter(d=>state.completed.includes(d.date)).length+'/'+training.length;
+  $('week-dots').innerHTML=week.map(d=>`<span class="week-dot ${state.completed.includes(d.date)?'checked':''} ${d.date===localDate()?'is-today':''}" aria-label="${esc(full(d.date))}: ${state.completed.includes(d.date)?'completed':'not checked'}"><span aria-hidden="true">${state.completed.includes(d.date)?'✓':d.number}</span><small>${new Date(d.date+'T12:00:00Z').toLocaleDateString(undefined,{weekday:'short',timeZone:'UTC'})}</small></span>`).join('');
+  const next=[1,3,7,14,30,60,100,200,365].find(n=>n>count);
+  $('reward-note').textContent=count===0?'Your first checkmark is waiting. Small steps count.':state.completed.includes(current.date)?(current.kind==='Rest'?'Recovery counts. You’re doing the work.':'Today’s win is in the bank. Enjoy your recovery.'):`${count} day${count===1?'':'s'} completed.${next?' Next milestone: '+next+'.':' Keep going at your pace.'}`;
+  for(const el of document.querySelectorAll('[data-week-progress]')){const group=days.filter(d=>d.week===Number(el.dataset.weekProgress));el.textContent=group.filter(d=>state.completed.includes(d.date)).length+'/'+group.length;}
+}
+function render(preserve=false){
+  if(!state){$('setup').hidden=false;$('trainer').hidden=true;$('change-form').hidden=true;return;}
+  const openWeeks=preserve?new Set([...document.querySelectorAll('#personal-plan details[open]')].map(d=>d.dataset.week)):null;
+  const openDays=preserve?new Set([...document.querySelectorAll('#personal-plan .plan-day[open]')].map(d=>d.dataset.date)):null;
+  const tipViews=preserve?new Set([...document.querySelectorAll('.workout-tips[open]')].map(d=>d.closest('[data-workout]').dataset.workout)):new Set();
+  days=buildPlan(state.start,state.race,templates);
+  $('setup').hidden=true;$('trainer').hidden=false;$('change-form').hidden=false;
+  $('change-date').value=state.race;$('change-date').min=localDate();$('change-date').max=addDays(state.start,730);
+  const current=currentDay(),left=distance(localDate(),state.race);
+  $('race-summary').textContent='Race day · '+fmt(state.race);$('countdown').textContent=left>0?left:left===0?'Today':'Race date passed';$('countdown-label').textContent=left>0?(left===1?'day to go':'days to go'):'';
+  $('today-date').textContent=localDate()>state.race?'YOUR RACE RECAP':full(current.date);
+  $('today-title').textContent=state.completed.includes(current.date)?'Win collected.':current.kind==='Rest'?'Recovery is progress.':current.kind==='Race'?'Your finish line.':'Your next win.';
+  $('day-number').textContent='DAY '+current.number;$('today-workout').innerHTML=sessionMarkup(current);
+  const groups=days.reduce((m,d)=>{m.set(d.week,[...(m.get(d.week)||[]),d]);return m;},new Map());
+  $('personal-plan').innerHTML=[...groups].map(([week,group])=>`<details class="week" data-week="${week}" ${(openWeeks?openWeeks.has(String(week)):week===current.week)?'open':''}><summary><span class="week-no">${String(week).padStart(2,'0')}</span><span class="week-info"><strong>Week ${week}</strong><span class="phase">${esc(group[0].phase)}</span><span class="fine">${fmt(group[0].date)} – ${fmt(group.at(-1).date)}</span></span><span data-week-progress="${week}" class="week-completion"></span><span aria-hidden="true">+</span></summary><div class="week-body">${group.map(d=>`<details class="plan-day" data-date="${d.date}" ${(openDays?openDays.has(d.date):d.date===localDate())?'open':''}><summary><span>${state.completed.includes(d.date)?'✓':'○'} ${esc(full(d.date))}</span><strong>${esc(d.title)}</strong></summary>${sessionMarkup(d,true)}</details>`).join('')}</div></details>`).join('');
+  for(const tips of document.querySelectorAll('.workout-tips'))tips.open=tipViews.has(tips.closest('[data-workout]').dataset.workout);
+  $('plan-length').textContent=`${days.length} days · ${fmt(state.start)} to ${fmt(state.race)}`;
+  $('timeline-note').hidden=days.length>=56;$('timeline-note').textContent=days.length<14?'Your race is close. This is a light preparation schedule, not a shortcut to race readiness. Don’t add intense or unfamiliar work.':'A shorter build: start with foundations and keep race week light. This plan won’t squeeze 21 weeks of training into your timeline.';
+  $('storage-status').textContent=storageOK?'Saved on this device · Your progress is private.':'Checkoffs work for this visit. Browser storage is unavailable; back up your plan below.';
+  progress();showView(view);
+}
+function celebrate(day){
+  const count=state.completed.length,week=days.filter(d=>d.week===day.week);
+  let message=day.kind==='Rest'?'Recovery checked. That counts.':day.kind==='Race'?'Finish line crossed. You did it.':count===1?'First win collected. You’re on your way.':[3,7,14,30,60,100,200,365].includes(count)?`${count} days completed. Look how far you’ve come.`:'Session complete. One more win.';
+  if(week.length===7&&week.every(d=>state.completed.includes(d.date)))message='Week complete. Seven days of showing up.';
+  $('celebration').innerHTML=`<span class="celebration-check" aria-hidden="true">✓</span><span>${esc(message)}</span><span class="sparkles" aria-hidden="true">✦</span>`;
+  $('celebration').hidden=false;$('celebration').classList.remove('pop');void $('celebration').offsetWidth;$('celebration').classList.add('pop');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('celebration').hidden=true,4000);
+}
+document.addEventListener('change',event=>{
+  const input=event.target;if(!input.matches('[data-complete],[data-task]')||!state)return;
+  const date=input.dataset.complete||input.dataset.date,checked=input.checked,focusedTask=input.dataset.task;
+  readLatest();days=buildPlan(state.start,state.race,templates);const day=days.find(d=>d.date===date);if(!day){render(true);return;}
+  const wasDone=state.completed.includes(date),all=checklist(day).tasks.map((_,i)=>i);
+  if(input.dataset.complete){state.tasks[date]=checked?all:[];state.completed=state.completed.filter(d=>d!==date);if(checked)state.completed.push(date);}
+  else{const tasks=new Set(wasDone?all:state.tasks[date]||[]),i=Number(input.dataset.task);if(checked)tasks.add(i);else tasks.delete(i);state.tasks[date]=[...tasks];state.completed=state.completed.filter(d=>d!==date);if(tasks.size===all.length)state.completed.push(date);}
+  state.completed.sort();persist();render(true);
+  const scope=view==='today'?$('today-view'):$('plan-view');scope.querySelector(focusedTask!==undefined?`[data-date="${date}"][data-task="${focusedTask}"]`:`[data-complete="${date}"]`)?.focus({preventScroll:true});
+  if(!wasDone&&state.completed.includes(date))celebrate(day);
+});
+$('view-today').addEventListener('click',()=>showView('today'));$('view-plan').addEventListener('click',()=>showView('plan'));
+$('setup-form').addEventListener('submit',event=>{event.preventDefault();try{const race=$('race-date').value;if(!validDate(race)||race<localDate())throw new Error('Choose today or a future race date.');buildPlan(firstOpen,race,templates);state={schemaVersion:2,start:firstOpen,race,completed:[],tasks:{}};persist();render();window.scrollTo(0,0);}catch(e){$('setup-error').textContent=e.message;}});
+$('change-form').addEventListener('submit',event=>{
+  event.preventDefault();try{
+    readLatest();const race=$('change-date').value;if(race<localDate())throw new Error('Choose today or a future date.');
+    const oldDays=buildPlan(state.start,state.race,templates),newDays=buildPlan(state.start,race,templates),oldByDate=new Map(oldDays.map(d=>[d.date,d]));
+    const unchanged=new Set(newDays.filter(d=>JSON.stringify(checklist(d))===JSON.stringify(checklist(oldByDate.get(d.date)||{steps:[]}))).map(d=>d.date)),valid=new Set(newDays.map(d=>d.date));
+    state.completed=state.completed.filter(d=>valid.has(d)&&(d<localDate()||unchanged.has(d)));state.tasks=Object.fromEntries(Object.entries(state.tasks).filter(([date])=>unchanged.has(date)));
+    state.race=race;persist();render(true);$('change-status').textContent='Race date updated. Past completed days kept; changed upcoming workouts have fresh checklists.';
+  }catch(e){$('change-status').textContent=e.message;}
+});
+function download(value,name){const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+$('export').addEventListener('click',()=>{if(state){readLatest();download({...state,exportedAt:new Date().toISOString()},'hyrox-trainer-'+localDate()+'.json');$('backup-status').textContent='Plan backed up. Your race date and checkoffs are included.';}});
+$('legacy-export').addEventListener('click',()=>{try{download(JSON.parse(localStorage.getItem('phoenix-training-v1')),'previous-training-progress.json');}catch{$('backup-status').textContent='The previous backup could not be read.';}});
+$('import').addEventListener('change',async event=>{const file=event.target.files[0];if(!file)return;try{if(file.size>500000)throw new Error('Too large');const restored=validateState(JSON.parse(await file.text()),templates);if(state&&!confirm('Restore this plan and its race date? This replaces the plan on this device. Back it up first if needed.'))return;state=restored;firstOpen=state.start;try{localStorage.setItem(FIRST,firstOpen);}catch{}persist();render();$('backup-status').textContent='Plan restored. Your first day, race date and checkoffs are back.';}catch{$('backup-status').textContent='Choose a valid HYROX Trainer plan backup. Nothing was changed.';}finally{event.target.value='';}});
+$('reset').addEventListener('click',()=>{if(!confirm('Start over from today? Back up your current plan first if you want to keep it.'))return;state=null;firstOpen=localDate();try{localStorage.removeItem(KEY);localStorage.setItem(FIRST,firstOpen);}catch{storageOK=false;}$('settings').open=false;$('race-date').value='';$('race-date').max=addDays(firstOpen,730);render();});
+window.addEventListener('storage',event=>{if((event.key===KEY||event.key===null)&&templates){try{const raw=localStorage.getItem(KEY);state=raw?validateState(JSON.parse(raw),templates):null;render(true);}catch{$('storage-status').textContent='Another tab changed the plan, but it could not be read.';}}});
+async function boot(){
+  try{const response=await fetch('./plan.json',{signal:AbortSignal.timeout(10000)});if(!response.ok)throw new Error('Unavailable');templates=(await response.json()).weeks;if(!Array.isArray(templates)||templates.length!==21)throw new Error('Invalid templates');
+    try{const raw=localStorage.getItem(KEY);if(raw)state=validateState(JSON.parse(raw),templates);}catch{storageOK=false;}
+    $('fallback').hidden=true;$('backup-controls').hidden=false;try{$('legacy-export').hidden=!localStorage.getItem('phoenix-training-v1');}catch{}
+    $('race-date').min=localDate();$('race-date').max=addDays(firstOpen,730);render();
+  }catch{$('fallback').querySelector('.notice').textContent='Personal setup is unavailable. Your starter workouts and station guide still work below. Reopen online to try again.';}
+}
+boot();let lastToday=localDate();setInterval(()=>{if(state&&localDate()!==lastToday){lastToday=localDate();render(true);}},60000);
+let installPrompt;window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installPrompt=event;$('install-button').hidden=false;});
+$('install-button').addEventListener('click',async()=>{if(installPrompt){await installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$('install-button').hidden=true;}});
+window.addEventListener('appinstalled',()=>$('install-button').hidden=true);$('update-button').addEventListener('click',()=>location.reload());
+if('serviceWorker' in navigator&&window.isSecureContext){navigator.serviceWorker.register('./sw.js',{scope:'./'}).then(async registration=>{await navigator.serviceWorker.ready;$('offline-status').textContent='Offline ready. Your plan is here whenever you need it.';registration.addEventListener('updatefound',()=>{const worker=registration.installing;worker?.addEventListener('statechange',()=>{if(worker.state==='installed'&&navigator.serviceWorker.controller){$('offline-status').textContent='An update is ready. Refresh to use it; your plan stays saved.';$('update-button').hidden=false;}});});}).catch(()=>$('offline-status').textContent='Offline setup is unavailable. Your plan still works online.');}else $('offline-status').textContent='Offline installation is unavailable in this browser. Your plan works online.';

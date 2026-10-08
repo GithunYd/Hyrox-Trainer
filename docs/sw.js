@@ -1,10 +1,9 @@
 /* Bump the version when any shell asset changes. Cache is isolated to this app scope. */
 const PREFIX = 'phoenix-hyrox-' + new URL(self.registration.scope).pathname;
-const CACHE = PREFIX + 'v2';
-const ASSETS = ['./', './index.html', './style.css', './app.js', './plan.json', './manifest.webmanifest', './icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
+const CACHE = PREFIX + 'v3';
+const ASSETS = ['./', './index.html', './style.css', './app.js', './planner.js', './plan.json', './manifest.webmanifest', './icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
-  // Let an existing version finish in open tabs; activate after they close.
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith(PREFIX) && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
