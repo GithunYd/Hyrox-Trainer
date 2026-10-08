@@ -23,6 +23,12 @@ function freezeDate(context,iso='2026-10-08T12:00:00'){
   assert.equal(await page.locator('#countdown').innerText(),'143');
   assert.equal(await page.locator('#personal-plan [data-workout]').count(),144);
   assert.equal(await page.locator('#today-workout [data-task]').count(),8);
+  assert.equal(await page.locator('#today-workout ul.checklist > li').count(),8);
+  await page.locator('#today-workout [data-weight="1"]').fill('22.5');
+  await page.locator('#today-workout [data-unit="1"]').selectOption('lb');
+  await page.reload();await page.waitForSelector('#trainer:not([hidden])');
+  assert.equal(await page.locator('#today-workout [data-weight="1"]').inputValue(),'22.5');
+  assert.equal(await page.locator('#today-workout [data-unit="1"]').inputValue(),'lb');
   await page.screenshot({path:path.join(output,'today.png'),fullPage:false});
   await page.locator('#today-workout [data-task="0"]').check();await page.reload();
   await page.waitForSelector('#trainer:not([hidden])');

@@ -54,5 +54,11 @@ export function validateState(state, templates) {
   for(const [date,values] of Object.entries(state.tasks)) {
     if(!byDate.has(date)||!Array.isArray(values)||values.some(v=>!Number.isInteger(v)||v<0||v>=checklist(byDate.get(date)).tasks.length))throw new Error('Invalid checklist.');
   }
-  return {schemaVersion:2,start:state.start,race:state.race,completed:[...new Set(state.completed)],tasks:Object.fromEntries(Object.entries(state.tasks).map(([date,v])=>[date,[...new Set(v)]]))};
+  const weights=state.weights??{};
+  if(typeof weights!=='object'||Array.isArray(weights)||weights===null)throw new Error('Invalid weights.');
+  for(const [date,entries] of Object.entries(weights)){
+    if(!byDate.has(date)||!entries||typeof entries!=='object'||Array.isArray(entries))throw new Error('Invalid weights.');
+    for(const [index,entry] of Object.entries(entries))if(!/^\d+$/.test(index)||Number(index)>=checklist(byDate.get(date)).tasks.length||!entry||!Number.isFinite(entry.value)||entry.value<0||entry.value>10000||!['kg','lb'].includes(entry.unit))throw new Error('Invalid weights.');
+  }
+  return {schemaVersion:2,weights:JSON.parse(JSON.stringify(weights)),start:state.start,race:state.race,completed:[...new Set(state.completed)],tasks:Object.fromEntries(Object.entries(state.tasks).map(([date,v])=>[date,[...new Set(v)]]))};
 }

@@ -29,7 +29,10 @@ test('Dates validate leap years and reject malformed or excessive timelines',()=
 });
 test('Progress backups validate day and exercise indexes before any state changes',()=>{
   const state={schemaVersion:2,start:'2026-10-08',race:'2027-02-28',completed:['2026-10-08'],tasks:{'2026-10-08':[0,1]}};
-  assert.deepEqual(validateState(state,plan),state);
+  assert.deepEqual(validateState(state,plan),{...state,weights:{}});
+  const weights={'2026-10-08':{1:{value:22.5,unit:'kg'}}};
+  assert.deepEqual(validateState({...state,weights},plan).weights,weights);
+  for(const entry of [{value:-1,unit:'kg'},{value:20,unit:'bad'},{value:'20',unit:'kg'}])assert.throws(()=>validateState({...state,weights:{'2026-10-08':{1:entry}}},plan));
   assert.throws(()=>validateState({...state,completed:['1900-01-01']},plan));
   assert.throws(()=>validateState({...state,tasks:{'2026-10-08':[500]}},plan));
   assert.throws(()=>validateState({...state,tasks:null},plan));
