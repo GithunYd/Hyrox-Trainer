@@ -1,0 +1,1962 @@
+{
+  "schemaVersion": 1,
+  "start": "2026-10-05",
+  "race": "2027-02-28",
+  "weeks": [
+    {
+      "number": 1,
+      "name": "Find your rhythm",
+      "phase": "Foundation",
+      "start": "2026-10-05",
+      "end": "2026-10-11",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 2 × 8; dumbbell Romanian deadlift 2 × 8; incline push-up 2 × 8; one-arm dumbbell row 2 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-05",
+          "id": "2026-10-05"
+        },
+        {
+          "title": "Easy run / walk",
+          "kind": "Run",
+          "duration": "30 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "20 min total, repeating 2 min easy jog / 1 min walk; stop at 20 min even if part-way through a repeat. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-06",
+          "id": "2026-10-06"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 200 m; sled push 12.5 m; sled pull 12.5 m; burpee broad jumps 10 m; row 200 m; farmers carry 40 m; sandbag lunges 10 m; 8 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-07",
+          "id": "2026-10-07"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-10-08",
+          "id": "2026-10-08"
+        },
+        {
+          "title": "Short run + strength",
+          "kind": "Run + strength",
+          "duration": "35–45 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "6 × (1 min easy jog + 1 min walk).",
+            "Dumbbell step-up 2 × 8 per leg; glute bridge 2 × 10; dumbbell overhead press 2 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-09",
+          "id": "2026-10-09"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "35 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "25 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-10",
+          "id": "2026-10-10"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-10-11",
+          "id": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Build consistency",
+      "phase": "Foundation",
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 2 × 8; dumbbell Romanian deadlift 2 × 8; incline push-up 2 × 8; one-arm dumbbell row 2 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-12",
+          "id": "2026-10-12"
+        },
+        {
+          "title": "Easy run / walk",
+          "kind": "Run",
+          "duration": "32 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "22 min total, repeating 2 min easy jog / 1 min walk; stop at 22 min even if part-way through a repeat. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-13",
+          "id": "2026-10-13"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 200 m; sled push 12.5 m; sled pull 12.5 m; burpee broad jumps 10 m; row 200 m; farmers carry 40 m; sandbag lunges 10 m; 10 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-14",
+          "id": "2026-10-14"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-10-15",
+          "id": "2026-10-15"
+        },
+        {
+          "title": "Short run + strength",
+          "kind": "Run + strength",
+          "duration": "35–45 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "7 × (1 min easy jog + 1 min walk).",
+            "Dumbbell step-up 2 × 8 per leg; glute bridge 2 × 10; dumbbell overhead press 2 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-16",
+          "id": "2026-10-16"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "38 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "28 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-17",
+          "id": "2026-10-17"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-10-18",
+          "id": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "A little more time",
+      "phase": "Foundation",
+      "start": "2026-10-19",
+      "end": "2026-10-25",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-19",
+          "id": "2026-10-19"
+        },
+        {
+          "title": "Easy run / walk",
+          "kind": "Run",
+          "duration": "35 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "25 min total, repeating 2 min easy jog / 1 min walk; stop at 25 min even if part-way through a repeat. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-20",
+          "id": "2026-10-20"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 200 m; sled push 12.5 m; sled pull 12.5 m; burpee broad jumps 10 m; row 200 m; farmers carry 40 m; sandbag lunges 10 m; 10 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-21",
+          "id": "2026-10-21"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-10-22",
+          "id": "2026-10-22"
+        },
+        {
+          "title": "Short run + strength",
+          "kind": "Run + strength",
+          "duration": "35–45 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "8 × (1 min easy jog + 1 min walk).",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-23",
+          "id": "2026-10-23"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "30 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-24",
+          "id": "2026-10-24"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-10-25",
+          "id": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Absorb the work",
+      "phase": "Recovery week",
+      "start": "2026-10-26",
+      "end": "2026-11-01",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 2 × 8; dumbbell Romanian deadlift 2 × 8; incline push-up 2 × 8; one-arm dumbbell row 2 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-26",
+          "id": "2026-10-26"
+        },
+        {
+          "title": "Easy run / walk",
+          "kind": "Run",
+          "duration": "28 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "18 min total, repeating 2 min easy jog / 1 min walk; stop at 18 min even if part-way through a repeat. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-27",
+          "id": "2026-10-27"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 200 m; sled push 12.5 m; sled pull 12.5 m; burpee broad jumps 10 m; row 200 m; farmers carry 40 m; sandbag lunges 10 m; 8 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-28",
+          "id": "2026-10-28"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-10-29",
+          "id": "2026-10-29"
+        },
+        {
+          "title": "Easy movement + light strength",
+          "kind": "Run + strength",
+          "duration": "30–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "15 min easy run/walk at RPE 3.",
+            "Step-up 2 × 6 per leg; glute bridge 2 × 8; overhead press 2 × 6; dead bug 2 × 6 per side. Rest 90 sec. Use lighter loads than last week.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-30",
+          "id": "2026-10-30"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "32 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "22 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-10-31",
+          "id": "2026-10-31"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-11-01",
+          "id": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Steady foundations",
+      "phase": "Foundation",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-02",
+          "id": "2026-11-02"
+        },
+        {
+          "title": "Easy run / walk",
+          "kind": "Run",
+          "duration": "38 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "28 min total, repeating 2 min easy jog / 1 min walk; stop at 28 min even if part-way through a repeat. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-03",
+          "id": "2026-11-03"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 300 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 300 m; farmers carry 60 m; sandbag lunges 15 m; 12 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-04",
+          "id": "2026-11-04"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-11-05",
+          "id": "2026-11-05"
+        },
+        {
+          "title": "Short run + strength",
+          "kind": "Run + strength",
+          "duration": "35–45 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "8 × (1 min easy jog + 1 min walk).",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-06",
+          "id": "2026-11-06"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "43 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "33 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-07",
+          "id": "2026-11-07"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-11-08",
+          "id": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Stronger legs",
+      "phase": "Build",
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-09",
+          "id": "2026-11-09"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "30 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-10",
+          "id": "2026-11-10"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 300 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 300 m; farmers carry 60 m; sandbag lunges 15 m; 12 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-11",
+          "id": "2026-11-11"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-11-12",
+          "id": "2026-11-12"
+        },
+        {
+          "title": "Controlled intervals + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "5 × (2 min steady run + 90 sec walk). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-13",
+          "id": "2026-11-13"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "45 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "35 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-14",
+          "id": "2026-11-14"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-11-15",
+          "id": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Comfortable running",
+      "phase": "Build",
+      "start": "2026-11-16",
+      "end": "2026-11-22",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-16",
+          "id": "2026-11-16"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "42 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "32 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-17",
+          "id": "2026-11-17"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 300 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 300 m; farmers carry 60 m; sandbag lunges 15 m; 15 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-18",
+          "id": "2026-11-18"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-11-19",
+          "id": "2026-11-19"
+        },
+        {
+          "title": "Controlled intervals + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "6 × (2 min steady run + 90 sec walk). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-20",
+          "id": "2026-11-20"
+        },
+        {
+          "title": "Run + station practice",
+          "kind": "HYROX",
+          "duration": "46–58 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Replace the long run with this combination session. Complete 3 rounds. Each round starts with 500 m easy run/walk, then the next station in this sequence: SkiErg 500 m; sled push 25 m; sled pull 25 m. Each listed station is used once. Rest 90 sec after each round.",
+            "Keep the whole session at RPE 5–6. Use light to moderate loads with good form. Walk the first 100 m after stations if needed. This is practice, not a time trial.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-21",
+          "id": "2026-11-21"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-11-22",
+          "id": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Recover & reset",
+      "phase": "Recovery week",
+      "start": "2026-11-23",
+      "end": "2026-11-29",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 2 × 8; dumbbell Romanian deadlift 2 × 8; incline push-up 2 × 8; one-arm dumbbell row 2 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-23",
+          "id": "2026-11-23"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "34 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "24 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-24",
+          "id": "2026-11-24"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 300 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 300 m; farmers carry 60 m; sandbag lunges 15 m; 10 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-25",
+          "id": "2026-11-25"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-11-26",
+          "id": "2026-11-26"
+        },
+        {
+          "title": "Easy movement + light strength",
+          "kind": "Run + strength",
+          "duration": "30–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "12 min easy run/walk at RPE 3.",
+            "Step-up 2 × 6 per leg; glute bridge 2 × 8; overhead press 2 × 6; dead bug 2 × 6 per side. Rest 90 sec. Use lighter loads than last week.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-27",
+          "id": "2026-11-27"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "38 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "28 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-28",
+          "id": "2026-11-28"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-11-29",
+          "id": "2026-11-29"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Build your engine",
+      "phase": "Build",
+      "start": "2026-11-30",
+      "end": "2026-12-06",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-11-30",
+          "id": "2026-11-30"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "45 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "35 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-01",
+          "id": "2026-12-01"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 300 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 300 m; farmers carry 60 m; sandbag lunges 15 m; 15 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-02",
+          "id": "2026-12-02"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-12-03",
+          "id": "2026-12-03"
+        },
+        {
+          "title": "Controlled intervals + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "6 × (2 min steady run + 90 sec walk). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-04",
+          "id": "2026-12-04"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "40 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-05",
+          "id": "2026-12-05"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-12-06",
+          "id": "2026-12-06"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Hold your rhythm",
+      "phase": "Build",
+      "start": "2026-12-07",
+      "end": "2026-12-13",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-07",
+          "id": "2026-12-07"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "46 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "36 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-08",
+          "id": "2026-12-08"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 300 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 300 m; farmers carry 60 m; sandbag lunges 15 m; 18 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-09",
+          "id": "2026-12-09"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-12-10",
+          "id": "2026-12-10"
+        },
+        {
+          "title": "Controlled intervals + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "7 × (2 min steady run + 90 sec walk). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-11",
+          "id": "2026-12-11"
+        },
+        {
+          "title": "Run + station practice",
+          "kind": "HYROX",
+          "duration": "46–58 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Replace the long run with this combination session. Complete 3 rounds. Each round starts with 500 m easy run/walk, then the next station in this sequence: SkiErg 500 m; sled push 25 m; sled pull 25 m. Each listed station is used once. Rest 90 sec after each round.",
+            "Keep the whole session at RPE 5–6. Use light to moderate loads with good form. Walk the first 100 m after stations if needed. This is practice, not a time trial.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-12",
+          "id": "2026-12-12"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-12-13",
+          "id": "2026-12-13"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Stronger transitions",
+      "phase": "Build",
+      "start": "2026-12-14",
+      "end": "2026-12-20",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-14",
+          "id": "2026-12-14"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "48 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "38 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-15",
+          "id": "2026-12-15"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 300 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 300 m; farmers carry 60 m; sandbag lunges 15 m; 20 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-16",
+          "id": "2026-12-16"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-12-17",
+          "id": "2026-12-17"
+        },
+        {
+          "title": "Controlled intervals + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "8 × (2 min steady run + 90 sec walk). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-18",
+          "id": "2026-12-18"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "45 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-19",
+          "id": "2026-12-19"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-12-20",
+          "id": "2026-12-20"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Make room for recovery",
+      "phase": "Recovery week",
+      "start": "2026-12-21",
+      "end": "2026-12-27",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 2 × 8; dumbbell Romanian deadlift 2 × 8; incline push-up 2 × 8; one-arm dumbbell row 2 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-21",
+          "id": "2026-12-21"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "38 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "28 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-22",
+          "id": "2026-12-22"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 12 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-23",
+          "id": "2026-12-23"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-12-24",
+          "id": "2026-12-24"
+        },
+        {
+          "title": "Easy movement + light strength",
+          "kind": "Run + strength",
+          "duration": "30–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "15 min easy run/walk at RPE 3.",
+            "Step-up 2 × 6 per leg; glute bridge 2 × 8; overhead press 2 × 6; dead bug 2 × 6 per side. Rest 90 sec. Use lighter loads than last week.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-25",
+          "id": "2026-12-25"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "42 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "32 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-26",
+          "id": "2026-12-26"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2026-12-27",
+          "id": "2026-12-27"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Run into the station",
+      "phase": "Race specific",
+      "start": "2026-12-28",
+      "end": "2027-01-03",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-28",
+          "id": "2026-12-28"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "40 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-29",
+          "id": "2026-12-29"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 20 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2026-12-30",
+          "id": "2026-12-30"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2026-12-31",
+          "id": "2026-12-31"
+        },
+        {
+          "title": "Race rhythm + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "4 × (3 min steady run + 2 min walk/jog). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-01",
+          "id": "2027-01-01"
+        },
+        {
+          "title": "Run + station practice",
+          "kind": "HYROX",
+          "duration": "58–74 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Replace the long run with this combination session. Complete 4 rounds. Each round starts with 750 m easy run/walk, then the next station in this sequence: SkiErg 500 m; sled push 25 m; sled pull 25 m; burpee broad jumps 20 m. Each listed station is used once. Rest 90 sec after each round.",
+            "Keep the whole session at RPE 5–6. Use light to moderate loads with good form. Walk the first 100 m after stations if needed. This is practice, not a time trial.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-02",
+          "id": "2027-01-02"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2027-01-03",
+          "id": "2027-01-03"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Find your race effort",
+      "phase": "Race specific",
+      "start": "2027-01-04",
+      "end": "2027-01-10",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-04",
+          "id": "2027-01-04"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "52 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "42 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-05",
+          "id": "2027-01-05"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 22 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-06",
+          "id": "2027-01-06"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2027-01-07",
+          "id": "2027-01-07"
+        },
+        {
+          "title": "Race rhythm + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "5 × (3 min steady run + 2 min walk/jog). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-08",
+          "id": "2027-01-08"
+        },
+        {
+          "title": "Run + station practice",
+          "kind": "HYROX",
+          "duration": "58–74 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Replace the long run with this combination session. Complete 4 rounds. Each round starts with 750 m easy run/walk, then the next station in this sequence: SkiErg 500 m; sled push 25 m; sled pull 25 m; burpee broad jumps 20 m. Each listed station is used once. Rest 90 sec after each round.",
+            "Keep the whole session at RPE 5–6. Use light to moderate loads with good form. Walk the first 100 m after stations if needed. This is practice, not a time trial.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-09",
+          "id": "2027-01-09"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2027-01-10",
+          "id": "2027-01-10"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Practice the sequence",
+      "phase": "Race specific",
+      "start": "2027-01-11",
+      "end": "2027-01-17",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-11",
+          "id": "2027-01-11"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "52 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "42 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-12",
+          "id": "2027-01-12"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 25 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-13",
+          "id": "2027-01-13"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2027-01-14",
+          "id": "2027-01-14"
+        },
+        {
+          "title": "Race rhythm + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "5 × (3 min steady run + 2 min walk/jog). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-15",
+          "id": "2027-01-15"
+        },
+        {
+          "title": "Run + station practice",
+          "kind": "HYROX",
+          "duration": "70–90 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Replace the long run with this combination session. Complete 5 rounds. Each round starts with 750 m easy run/walk, then the next station in this sequence: SkiErg 500 m; sled push 25 m; sled pull 25 m; burpee broad jumps 20 m; row 500 m. Each listed station is used once. Rest 90 sec after each round.",
+            "Keep the whole session at RPE 5–6. Use light to moderate loads with good form. Walk the first 100 m after stations if needed. This is practice, not a time trial.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-16",
+          "id": "2027-01-16"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2027-01-17",
+          "id": "2027-01-17"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Freshen up",
+      "phase": "Recovery week",
+      "start": "2027-01-18",
+      "end": "2027-01-24",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 2 × 8; dumbbell Romanian deadlift 2 × 8; incline push-up 2 × 8; one-arm dumbbell row 2 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-18",
+          "id": "2027-01-18"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "30 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-19",
+          "id": "2027-01-19"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 15 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-20",
+          "id": "2027-01-20"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2027-01-21",
+          "id": "2027-01-21"
+        },
+        {
+          "title": "Easy movement + light strength",
+          "kind": "Run + strength",
+          "duration": "30–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "9 min easy run/walk at RPE 3.",
+            "Step-up 2 × 6 per leg; glute bridge 2 × 8; overhead press 2 × 6; dead bug 2 × 6 per side. Rest 90 sec. Use lighter loads than last week.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-22",
+          "id": "2027-01-22"
+        },
+        {
+          "title": "Long easy run / walk",
+          "kind": "Run",
+          "duration": "45 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "35 min easy run/walk at RPE 3–4. Repeat 4 min jog / 1 min walk, or 2 min / 1 min if needed. Keep the final 5 min as easy as the first. No pace target.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-23",
+          "id": "2027-01-23"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2027-01-24",
+          "id": "2027-01-24"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Longer combinations",
+      "phase": "Race specific",
+      "start": "2027-01-25",
+      "end": "2027-01-31",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-25",
+          "id": "2027-01-25"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "53 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "43 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-26",
+          "id": "2027-01-26"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 25 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-27",
+          "id": "2027-01-27"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2027-01-28",
+          "id": "2027-01-28"
+        },
+        {
+          "title": "Race rhythm + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "6 × (3 min steady run + 2 min walk/jog). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 3 × 8 per leg; glute bridge 3 × 10; dumbbell overhead press 3 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-29",
+          "id": "2027-01-29"
+        },
+        {
+          "title": "Run + station practice",
+          "kind": "HYROX",
+          "duration": "82–106 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Replace the long run with this combination session. Complete 6 rounds. Each round starts with 750 m easy run/walk, then the next station in this sequence: SkiErg 500 m; sled push 25 m; sled pull 25 m; burpee broad jumps 20 m; row 500 m; farmers carry 100 m. Each listed station is used once. Rest 90 sec after each round.",
+            "Keep the whole session at RPE 5–6. Use light to moderate loads with good form. Walk the first 100 m after stations if needed. This is practice, not a time trial.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-01-30",
+          "id": "2027-01-30"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2027-01-31",
+          "id": "2027-01-31"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Dress rehearsal",
+      "phase": "Peak",
+      "start": "2027-02-01",
+      "end": "2027-02-07",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 3 × 8; dumbbell Romanian deadlift 3 × 8; incline push-up 3 × 8; one-arm dumbbell row 3 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-01",
+          "id": "2027-02-01"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "40 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-02",
+          "id": "2027-02-02"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 25 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-03",
+          "id": "2027-02-03"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2027-02-04",
+          "id": "2027-02-04"
+        },
+        {
+          "title": "Easy run + mobility",
+          "kind": "Run",
+          "duration": "30 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "20 min easy run/walk at RPE 3, then 5 min gentle ankle/hip mobility. No extra lifting.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-05",
+          "id": "2027-02-05"
+        },
+        {
+          "title": "Run + station practice",
+          "kind": "HYROX",
+          "duration": "106–138 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Reduced-distance rehearsal (6 km total running). Use a comfortable load up to your division’s race load only if already practiced. Allow 90–120 min; shorten or stop if form deteriorates. Complete 8 rounds. Each round starts with 750 m easy run/walk, then the next station in this sequence: SkiErg 750 m; sled push 37.5 m; sled pull 37.5 m; burpee broad jumps 60 m; row 750 m; farmers carry 150 m; sandbag lunges 75 m; wall balls 75 reps. Each listed station is used once. Rest 90 sec after each round.",
+            "Keep the whole session at RPE 5–6. Use light to moderate loads with good form. Walk the first 100 m after stations if needed. This is practice, not a time trial.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-06",
+          "id": "2027-02-06"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2027-02-07",
+          "id": "2027-02-07"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Confidence, not exhaustion",
+      "phase": "Peak",
+      "start": "2027-02-08",
+      "end": "2027-02-14",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 2 × 8; dumbbell Romanian deadlift 2 × 8; incline push-up 2 × 8; one-arm dumbbell row 2 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-08",
+          "id": "2027-02-08"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "45 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "35 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-09",
+          "id": "2027-02-09"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "49–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "3 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 20 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-10",
+          "id": "2027-02-10"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2027-02-11",
+          "id": "2027-02-11"
+        },
+        {
+          "title": "Race rhythm + strength",
+          "kind": "Run + strength",
+          "duration": "40–55 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "4 × (3 min steady run + 2 min walk/jog). Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Dumbbell step-up 2 × 8 per leg; glute bridge 2 × 10; dumbbell overhead press 2 × 8; dead bug 2 × 8 per side. Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-12",
+          "id": "2027-02-12"
+        },
+        {
+          "title": "Run + station practice",
+          "kind": "HYROX",
+          "duration": "58–74 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Replace the long run with this combination session. Complete 4 rounds. Each round starts with 750 m easy run/walk, then the next station in this sequence: SkiErg 500 m; sled push 25 m; sled pull 25 m; burpee broad jumps 20 m. Each listed station is used once. Rest 90 sec after each round.",
+            "Keep the whole session at RPE 5–6. Use light to moderate loads with good form. Walk the first 100 m after stations if needed. This is practice, not a time trial.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-13",
+          "id": "2027-02-13"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2027-02-14",
+          "id": "2027-02-14"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Let the work settle",
+      "phase": "Taper",
+      "start": "2027-02-15",
+      "end": "2027-02-21",
+      "days": [
+        {
+          "title": "Strength foundations",
+          "kind": "Strength",
+          "duration": "40–50 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 2 × 8; dumbbell Romanian deadlift 2 × 8; incline push-up 2 × 8; one-arm dumbbell row 2 × 10 per side; standing calf raise 2 × 12; plank 2 × 25 sec (rest 45 sec).",
+            "Choose a load that leaves 2–3 good reps in reserve (RPE 6–7). Rest 90 sec between sets. Increase by the smallest available increment only when all reps are controlled; keep loads lighter during recovery and taper weeks.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-15",
+          "id": "2027-02-15"
+        },
+        {
+          "title": "Easy aerobic run",
+          "kind": "Run",
+          "duration": "35 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "25 min easy run. If needed, repeat 4 min jog / 1 min walk until time is complete. Easy = RPE 3–4/10, able to speak full sentences. Walk breaks are welcome. Steady = RPE 5–6, short sentences. Never sprint these sessions.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-16",
+          "id": "2027-02-16"
+        },
+        {
+          "title": "Station skills",
+          "kind": "Stations",
+          "duration": "36–40 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "2 rounds, in this order: SkiErg 400 m; sled push 25 m; sled pull 25 m; burpee broad jumps 15 m; row 400 m; farmers carry 80 m; sandbag lunges 20 m; 12 wall balls. Rest 60 sec between stations and 2 min between rounds.",
+            "Use light technique loads at RPE 5–6. Start lunges with bodyweight and wall balls with a light ball. Use a measured lane. For sleds, choose a load you can move smoothly; surface friction matters more than a fixed gym weight.",
+            "No equipment? Replace each SkiErg/row with 2 min brisk incline walk; each sled push with 45 sec incline walk; each sled pull with 12 cable or resistance-band rows; carry with two dumbbells; sandbag lunges with bodyweight; wall balls with squat-to-press. These build fitness, but practice actual equipment before racing.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-17",
+          "id": "2027-02-17"
+        },
+        {
+          "title": "Full rest",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "No planned exercise. Prioritize sleep, regular meals and normal hydration. If sore, use gentle movement only."
+          ],
+          "date": "2027-02-18",
+          "id": "2027-02-18"
+        },
+        {
+          "title": "Short rhythm reminder",
+          "kind": "Run",
+          "duration": "25 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "4 × (2 min steady run + 2 min walk). Finish feeling you could repeat it.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-19",
+          "id": "2027-02-19"
+        },
+        {
+          "title": "Short easy run",
+          "kind": "Run",
+          "duration": "30 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "20 min easy run/walk at RPE 3. Skip any additional station work.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-20",
+          "id": "2027-02-20"
+        },
+        {
+          "title": "Recovery walk + mobility",
+          "kind": "Recovery",
+          "duration": "25 min",
+          "steps": [
+            "20 min comfortable walk at RPE 2. Then 5 min gentle ankle, hip and upper-back mobility. This is optional; full rest is equally valid."
+          ],
+          "date": "2027-02-21",
+          "id": "2027-02-21"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Arrive fresh",
+      "phase": "Race week",
+      "start": "2027-02-22",
+      "end": "2027-02-28",
+      "days": [
+        {
+          "title": "Light full-body tune-up",
+          "kind": "Strength",
+          "duration": "25 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "Goblet squat 1 × 8; dumbbell Romanian deadlift 1 × 8; incline push-up 1 × 8; dumbbell row 1 × 8 per side; wall balls 2 × 8 with a light ball. Rest 90 sec; RPE 4. No new loads.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-22",
+          "id": "2027-02-22"
+        },
+        {
+          "title": "Easy run + strides",
+          "kind": "Run",
+          "duration": "25 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "15 min easy run/walk. Then 3 × (20 sec relaxed quicker running at RPE 6 + 100 sec walking).",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-23",
+          "id": "2027-02-23"
+        },
+        {
+          "title": "Station touchpoints",
+          "kind": "Stations",
+          "duration": "20 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "1 round: SkiErg 200 m; row 200 m; farmers carry 40 m; bodyweight lunges 10 m; 8 light wall balls. Rest 60 sec between stations. RPE 3–4.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-24",
+          "id": "2027-02-24"
+        },
+        {
+          "title": "Rest + race logistics",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "Confirm your actual division date and wave time, course instructions, ID, ticket and travel. This plan targets Sunday, Feb 28; move the taper if your ticket is for another day."
+          ],
+          "date": "2027-02-25",
+          "id": "2027-02-25"
+        },
+        {
+          "title": "Optional shakeout",
+          "kind": "Run",
+          "duration": "15 min",
+          "steps": [
+            "Warm up: 5 min brisk walk or easy bike, then 10 bodyweight squats, 10 alternating reverse lunges and 10 arm circles each way.",
+            "5 min easy jog/walk, then 3 × (15 sec relaxed strides + 45 sec walk). Skip if tired.",
+            "Cool down: 5 min easy walk, then 30 sec each calf, hip-flexor and chest stretch per side."
+          ],
+          "date": "2027-02-26",
+          "id": "2027-02-26"
+        },
+        {
+          "title": "Rest + prepare",
+          "kind": "Rest",
+          "duration": "0 min",
+          "steps": [
+            "Pack tested shoes, comfortable kit, ID and ticket. Eat familiar meals, hydrate normally, and avoid new equipment or workouts. Set your alarm around your confirmed start time."
+          ],
+          "date": "2027-02-27",
+          "id": "2027-02-27"
+        },
+        {
+          "title": "Phoenix race day",
+          "kind": "Race",
+          "duration": "Your wave time",
+          "steps": [
+            "Arrive according to the organizer’s instructions. Warm up for 10 min with walking, easy jogging and familiar mobility.",
+            "Run 1 km before each station: SkiErg 1,000 m → sled push 50 m → sled pull 50 m → burpee broad jumps 80 m → row 1,000 m → farmers carry 200 m → sandbag lunges 100 m → wall balls 100 reps. Total running: 8 km.",
+            "Start conservatively. Use your registered division’s loads, follow judges and confirm completion before leaving each station. Walking is a valid pacing strategy. After finishing, walk gently, drink and eat as comfortable."
+          ],
+          "date": "2027-02-28",
+          "id": "2027-02-28"
+        }
+      ]
+    }
+  ]
+}
