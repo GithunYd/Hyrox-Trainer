@@ -30,4 +30,6 @@ Edit `scripts/plan.mjs` for workouts; `scripts/build.mjs` generates `docs/index.
 
 ## Deployment
 
-GitHub Pages serves the `main` branch `/docs` directory. Generated files are committed so GitHub’s native Pages build can deploy without workflow permissions or dependency downloads. All asset URLs are relative for the project subpath. Manifest scope/id/start URL and service-worker scope stay within `/Hyrox-Trainer/`.
+GitHub Pages publishes the `docs` directory through `.github/workflows/pages.yml` on pushes to `main`. The workflow regenerates the static plan and runs validation before deploying with the official GitHub Pages actions. No application dependencies are required. All asset URLs are relative for the project subpath. Manifest scope/id/start URL and service-worker scope stay within `/Hyrox-Trainer/`.
+
+Optional browser verification: install Playwright in your development environment, then run `node tests/browser.cjs` while the local preview is running. Defaults to installed Chrome; set `PHOENIX_BROWSER=msedge` to use Edge and `PHOENIX_TEST_URL` to verify a deployment. Browser tests use temporary profiles and never alter real user progress.
